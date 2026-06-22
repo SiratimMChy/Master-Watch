@@ -2,9 +2,11 @@ import { useState } from 'react';
 import { NavLink, Link } from 'react-router';
 import { FiShoppingCart } from 'react-icons/fi';
 import logo from '../assets/logo.png';
+import { useCart } from '../context/CartContext';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { cartCount } = useCart();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -63,10 +65,15 @@ const Navbar = () => {
             </Link>
             <Link 
               to="/cart" 
-              className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 rounded-lg font-bold px-4 py-2"
+              className="relative flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 rounded-lg font-bold px-4 py-2"
             >
               <FiShoppingCart className="w-5 h-5" />
               Cart
+              {cartCount > 0 && (
+                <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-[10px] font-bold text-white border-2 border-white shadow-sm">
+                  {cartCount}
+                </span>
+              )}
             </Link>
           </div>
 
@@ -125,10 +132,15 @@ const Navbar = () => {
               <Link
                 to="/cart"
                 onClick={closeMobileMenu}
-                className="flex items-center justify-center gap-2 px-3 py-2 rounded-md text-base font-medium text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-md transition-colors"
+                className="relative flex items-center justify-center gap-2 px-3 py-2 rounded-md text-base font-medium text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-md transition-colors"
               >
                 <FiShoppingCart className="w-5 h-5" />
                 Cart
+                {cartCount > 0 && (
+                  <span className="ml-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-[10px] font-bold text-white border-2 border-white shadow-sm">
+                    {cartCount}
+                  </span>
+                )}
               </Link>
             </div>
           </div>

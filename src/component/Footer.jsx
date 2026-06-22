@@ -28,12 +28,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/accessories" className="text-gray-400 hover:text-blue-500 transition">
-                  Accessories
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-gray-400 hover:text-blue-500 transition">
+                <Link to="/aboutUs" className="text-gray-400 hover:text-blue-500 transition">
                   About Us
                 </Link>
               </li>
@@ -50,23 +45,18 @@ const Footer = () => {
             <h6 className="font-bold text-lg mb-5 text-white">Categories</h6>
             <ul className="space-y-3">
               <li>
-                <Link to="/men" className="text-gray-400 hover:text-blue-500 transition">
+                <Link to="/category/mens" className="text-gray-400 hover:text-blue-500 transition">
                   Men's Watches
                 </Link>
               </li>
               <li>
-                <Link to="/women" className="text-gray-400 hover:text-blue-500 transition">
+                <Link to="/category/womens" className="text-gray-400 hover:text-blue-500 transition">
                   Women's Watches
                 </Link>
               </li>
               <li>
-                <Link to="/smartwatches" className="text-gray-400 hover:text-blue-500 transition">
+                <Link to="/category/smartwatches" className="text-gray-400 hover:text-blue-500 transition">
                   Smartwatches
-                </Link>
-              </li>
-              <li>
-                <Link to="/collections" className="text-gray-400 hover:text-blue-500 transition">
-                  New Collections
                 </Link>
               </li>
             </ul>
@@ -79,11 +69,6 @@ const Footer = () => {
               <li>
                 <Link to="/faq" className="text-gray-400 hover:text-blue-500 transition">
                   FAQ
-                </Link>
-              </li>
-              <li>
-                <Link to="/shipping" className="text-gray-400 hover:text-blue-500 transition">
-                  Shipping & Returns
                 </Link>
               </li>
               <li>

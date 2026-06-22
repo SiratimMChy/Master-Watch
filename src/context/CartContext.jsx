@@ -32,11 +32,10 @@ export const CartProvider = ({ children }) => {
     toast.error("Removed from cart!");
   };
 
-  const updateQuantity = (id, action) => {
+  const updateQuantity = (id, quantity) => {
     setCartItems(cartItems.map((item) => {
       if (item.id === id) {
-        if (action === 'increase') return { ...item, quantity: item.quantity + 1 };
-        if (action === 'decrease' && item.quantity > 1) return { ...item, quantity: item.quantity - 1 };
+        return { ...item, quantity: quantity };
       }
       return item;
     }));
@@ -53,7 +52,7 @@ export const CartProvider = ({ children }) => {
     count + item.quantity, 0);
 
   return (
-    <CartContext value={{
+    <CartContext.Provider value={{
       cartItems,
       addToCart,
       removeFromCart,
@@ -63,7 +62,7 @@ export const CartProvider = ({ children }) => {
       cartCount
     }}>
       {children}
-    </CartContext>
+    </CartContext.Provider>
   );
 };
 

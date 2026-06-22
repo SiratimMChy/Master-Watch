@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 overflow-hidden flex flex-col h-full group">
-      <Link to={`/product/${product.id}`} className="relative h-64 overflow-hidden block">
+      <Link to={`/products/${product.id}`} className="relative h-64 overflow-hidden block">
         <img 
           src={product.image} 
           alt={product.name} 
@@ -20,7 +20,7 @@ const ProductCard = ({ product }) => {
       </Link>
       
       <div className="p-5 flex flex-col flex-grow">
-        <Link to={`/product/${product.id}`}>
+        <Link to={`/products/${product.id}`}>
           <h3 className="text-lg font-bold text-gray-900 mb-1 line-clamp-1 hover:text-blue-600 transition-colors">
             {product.name}
           </h3>
