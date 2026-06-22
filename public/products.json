@@ -1,0 +1,290 @@
+[
+  {
+    "id": "m1",
+    "name": "Rolex Submariner Date",
+    "category": "Men's",
+    "price": 12500,
+    "description": "The ultimate diving watch, featuring a robust Oystersteel case and a unidirectional rotatable bezel with a Cerachrom insert.",
+    "features": [
+      "Water resistant to 300m",
+      "Self-winding mechanical movement",
+      "Scratch-resistant sapphire crystal"
+    ],
+    "image": "https://i.ibb.co.com/8gqrmm3H/say-s-v-Rc-SC-UN3y-I-unsplash.jpg",
+    "rating": 4.9,
+    "reviews": 128,
+    "stock": 15
+  },
+  {
+    "id": "m2",
+    "name": "Omega Speedmaster Professional",
+    "category": "Men's",
+    "price": 6300,
+    "description": "The legendary chronograph that went to the moon. Features a black dial covered by a hesalite crystal and a black bezel with a tachymetric scale.",
+    "features": [
+      "Manual-winding chronograph",
+      "Tachymeter",
+      "50m water resistance"
+    ],
+    "image": "https://i.ibb.co.com/r2MXwwKZ/hans-gaber-id-SBXY2-QWOE-unsplash.jpg",
+    "rating": 4.8,
+    "reviews": 95,
+    "stock": 8
+  },
+  {
+    "id": "m3",
+    "name": "Tag Heuer Carrera",
+    "category": "Men's",
+    "price": 4500,
+    "description": "A classic yet contemporary sports watch inspired by motor racing. Bold, readable, and built for speed.",
+    "features": [
+      "Automatic movement",
+      "Chronograph",
+      "Steel bracelet"
+    ],
+    "image": "https://i.ibb.co.com/SDCLmcFf/william-a-ZAU37-NUEq-Mo-unsplash.jpg",
+    "rating": 4.7,
+    "reviews": 76,
+    "stock": 22
+  },
+  {
+    "id": "m4",
+    "name": "Audemars Piguet",
+    "category": "Men's",
+    "price": 45000,
+    "description": "The iconic luxury sports watch featuring an octagonal bezel, 'Grande Tapisserie' dial, and integrated bracelet.",
+    "features": [
+      "Self-winding manufacture movement",
+      "Sapphire crystal back",
+      "Octagonal bezel"
+    ],
+    "image": "https://i.ibb.co.com/Ng3zQ84d/m-g-z1f3d6-w7d-A-unsplash.jpg",
+    "rating": 4.9,
+    "reviews": 210,
+    "stock": 5
+  },
+  {
+    "id": "m5",
+    "name": "Casio F-91W",
+    "category": "Men's",
+    "price": 20,
+    "description": "The quintessential digital watch. Known for its reliability, retro design, and everyday practicality. A true global icon.",
+    "features": [
+      "Digital display",
+      "Alarm and stopwatch",
+      "Water resistant"
+    ],
+    "image": "https://i.ibb.co.com/5hSbCWsG/magnific-a-classic-casio-f91w-digital-watch-on-a-sleek-blac-63531.jpg",
+    "rating": 5,
+    "reviews": 1500,
+    "stock": 250
+  },
+  {
+    "id": "m6",
+    "name": "Breitling Navitimer B01",
+    "category": "Men's",
+    "price": 9100,
+    "description": "The legendary pilot's watch featuring a circular slide rule for airborne navigation and an in-house chronograph movement.",
+    "features": [
+      "Breitling 01 Manufacture movement",
+      "Chronograph function",
+      "Circular slide rule"
+    ],
+    "image": "https://i.ibb.co.com/WptFrX71/Gemini-Generated-Image-v7p4awv7p4awv7p4.png",
+    "rating": 4.8,
+    "reviews": 340,
+    "stock": 12
+  },
+  {
+    "id": "w1",
+    "name": "Cartier Tank Francaise",
+    "category": "Women's",
+    "price": 3400,
+    "description": "A timeless symbol of elegance. The Tank Francaise updates the legacy of the Tank watch with a chain-link bracelet.",
+    "features": [
+      "Quartz movement",
+      "Steel case",
+      "Blued-steel sword-shaped hands"
+    ],
+    "image": "https://i.ibb.co.com/Rpp6VmqZ/studio-crevettes-Ju-6-TPKXd-Bs-unsplash.jpg",
+    "rating": 4.9,
+    "reviews": 88,
+    "stock": 5
+  },
+  {
+    "id": "w2",
+    "name": "Michael Kors Bradshaw",
+    "category": "Women's",
+    "price": 250,
+    "description": "A perfectly proportioned watch with a classic chronograph dial and a stylish two-tone finish.",
+    "features": [
+      "Chronograph",
+      "Water resistant 50m",
+      "Stainless steel"
+    ],
+    "image": "https://i.ibb.co.com/zTJtXgHV/Gemini-Generated-Image-1nya891nya891nya.png",
+    "rating": 4.5,
+    "reviews": 420,
+    "stock": 40
+  },
+  {
+    "id": "w3",
+    "name": "Fossil Jacqueline",
+    "category": "Women's",
+    "price": 135,
+    "description": "A classic design with a modern spin, featuring a slim profile and an elegant leather strap.",
+    "features": [
+      "Quartz movement",
+      "Genuine leather",
+      "30m water resistance"
+    ],
+    "image": "https://i.ibb.co.com/VY7q9ymq/Gemini-Generated-Image-2vmsvh2vmsvh2vms.png",
+    "rating": 4.4,
+    "reviews": 150,
+    "stock": 60
+  },
+  {
+    "id": "w4",
+    "name": "Daniel Wellington Petite",
+    "category": "Women's",
+    "price": 189,
+    "description": "Minimalist and elegant, the Petite features a beautiful mesh bracelet and a clean white dial.",
+    "features": [
+      "Japanese Quartz",
+      "Interchangeable straps",
+      "Rose gold plating"
+    ],
+    "image": "https://i.ibb.co.com/jZ3GTY7K/Gemini-Generated-Image-vj63pdvj63pdvj63.png",
+    "rating": 4.6,
+    "reviews": 290,
+    "stock": 35
+  },
+  {
+    "id": "w5",
+    "name": "Citizen Eco-Drive Silhouette",
+    "category": "Women's",
+    "price": 225,
+    "description": "Powered by light, any light. Never needs a battery. Features sparkling crystal accents.",
+    "features": [
+      "Eco-Drive technology",
+      "Crystal accents",
+      "Stainless steel"
+    ],
+    "image": "https://i.ibb.co.com/Fb6kdTdL/Gemini-Generated-Image-ehcevsehcevsehce.png",
+    "rating": 4.7,
+    "reviews": 110,
+    "stock": 25
+  },
+  {
+    "id": "w6",
+    "name": "Bulova Rubaiyat",
+    "category": "Women's",
+    "price": 495,
+    "description": "Legendary heritage reinvented. Features hand-set diamonds individually placed on the case and dial.",
+    "features": [
+      "Diamond accents",
+      "Sapphire crystal",
+      "Cabochon crown"
+    ],
+    "image": "https://i.ibb.co.com/jZ3GTY7K/Gemini-Generated-Image-vj63pdvj63pdvj63.png",
+    "rating": 4.8,
+    "reviews": 65,
+    "stock": 12
+  },
+  {
+    "id": "s1",
+    "name": "Apple Watch Series 9",
+    "category": "Smartwatches",
+    "price": 399,
+    "description": "A brighter display, advanced health sensors, and the magic of Double Tap. The ultimate device for a healthy life.",
+    "features": [
+      "ECG app",
+      "Always-On Retina display",
+      "Crash Detection"
+    ],
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&q=80&w=500",
+    "rating": 4.9,
+    "reviews": 1250,
+    "stock": 100
+  },
+  {
+    "id": "s2",
+    "name": "Samsung Galaxy Watch 6",
+    "category": "Smartwatches",
+    "price": 299,
+    "description": "Track your sleep, fitness, and wellness with a larger screen and a thinner bezel.",
+    "features": [
+      "Advanced Sleep Coaching",
+      "Body Composition",
+      "Sapphire Crystal glass"
+    ],
+    "image": "https://images.unsplash.com/photo-1579586337278-3ea6f5240c1a?auto=format&fit=crop&q=80&w=500",
+    "rating": 4.7,
+    "reviews": 890,
+    "stock": 85
+  },
+  {
+    "id": "s3",
+    "name": "Garmin Fenix 7",
+    "category": "Smartwatches",
+    "price": 699,
+    "description": "The ultimate multisport GPS watch with a scratch-resistant Power Sapphire solar charging lens.",
+    "features": [
+      "Solar charging",
+      "Built-in sports apps",
+      "PacePro technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?auto=format&fit=crop&q=80&w=500",
+    "rating": 4.8,
+    "reviews": 420,
+    "stock": 40
+  },
+  {
+    "id": "s4",
+    "name": "Fitbit Sense 2",
+    "category": "Smartwatches",
+    "price": 249,
+    "description": "Advanced health and fitness smartwatch that helps you manage stress and sleep better.",
+    "features": [
+      "All-day stress detection",
+      "Built-in GPS",
+      "6+ days battery"
+    ],
+    "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b0?auto=format&fit=crop&q=80&w=500",
+    "rating": 4.5,
+    "reviews": 650,
+    "stock": 120
+  },
+  {
+    "id": "s5",
+    "name": "Amazfit GTR 4",
+    "category": "Smartwatches",
+    "price": 199,
+    "description": "A classic round design packed with fitness features and an incredible 14-day battery life.",
+    "features": [
+      "14-day battery",
+      "Dual-band GPS",
+      "150+ sports modes"
+    ],
+    "image": "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?auto=format&fit=crop&q=80&w=500",
+    "rating": 4.6,
+    "reviews": 320,
+    "stock": 75
+  },
+  {
+    "id": "s6",
+    "name": "Huawei Watch GT 4",
+    "category": "Smartwatches",
+    "price": 250,
+    "description": "Fashion meets technology. Features a unique octagonal design, precise health tracking, and long battery life.",
+    "features": [
+      "Up to 14 days battery",
+      "Heart rate monitoring",
+      "Customizable watch faces"
+    ],
+    "image": "https://images.unsplash.com/photo-1617643176602-0eeb3d223f6e?auto=format&fit=crop&q=80&w=500",
+    "rating": 4.7,
+    "reviews": 210,
+    "stock": 65
+  }
+]
